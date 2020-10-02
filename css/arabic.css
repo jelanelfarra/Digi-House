@@ -1,0 +1,70 @@
+/* ****************Start Navabar********************* */
+.Ar{font-family: 'Almarai', sans-serif;}
+.Ar .navbar-nav > li > a{font-family: 'Almarai', sans-serif!important;font-size: 16px;}
+.Ar .navbar-inverse .navbar-brand{font-size: 30px;}
+.Ar .carousel-caption h2{ font-family: 'Almarai', sans-serif!important;font-size: 30px!important;}
+/* ****************Start Wellcome********************* */
+.Ar .lead{font-family: 'Almarai', sans-serif;font-size: 17px;line-height: 1.6;}
+.Ar .welcome h1{font-family: 'Almarai', sans-serif; font-size: 30px;}
+.Ar .welcome p{font-family: 'Almarai', sans-serif;font-size: 20px;margin-top: 35px;}
+.Ar .welcome h1 span{font-size: 36px;}
+.Ar .intro h2{font-size: 24px;font-family: 'Almarai', sans-serif;}
+.Ar .intro p{font-family: 'Almarai', sans-serif;font-size: 18px;color: #888;}
+.Ar .intro .btn-success{padding: 8px 25px;font-family: 'Almarai', sans-serif;font-size: 15px;}
+/* ****************Start Featured & About & Choose********************* */
+.Ar .feature h1,.Ar .about h1,
+.Ar .choose h1,.Ar .join h1{font-family: 'Almarai', sans-serif;font-size: 30px;}
+.Ar .feature ul li::before,
+.Ar .about ul li::before,.Ar .our-services ul li::before{font-size: 27px;margin-left: 0;} 
+.Ar .feature img{margin-right: 40px;}
+.Ar .about img{width: 95%;margin-top: -50px;margin-right: 27px;margin-left: 0;margin-bottom: 0;}
+.Ar .about .head-after::after,.Ar .feature .head-after::after,.Ar .our-services .head-after::after{width: 80px;}
+.Ar .choose li{font-family: 'Almarai', sans-serif;font-size: 17px;}
+.Ar .choose i{margin-right: 4px;margin-left: 6px;}
+.Ar .stats .stats-text,.Ar .stats .number{font-family: 'Almarai', sans-serif;}
+/* ****************Start Contact & Footer********************* */
+.Ar .contact h2{font-size: 28px!important;}
+.Ar .contact input[type="text"],.Ar .contact textarea::placeholder{font-size: 16px;}
+.Ar footer h4{font-family: 'Almarai', sans-serif;font-size: 20px;}
+.Ar footer p{font-size: 16px;}
+.Ar footer span.foot{font-size: 15px!important;}
+.Ar footer .global span,.Ar footer .global i{font-size: 15px;}
+.Ar footer ul li {list-style: none;}
+.Ar footer ul li a {font-size: 16px;}
+.Ar footer .social i{font-size: 35px;}
+/* ****************Start Services******************** */
+/* .Ar .dropdown-menu > li > a {color: #fff;padding: 6px 20px;-webkit-transition:padding 0.5s ease;-moz-transition:padding 0.5s ease;-o-transition:padding 0.5s ease;transition:padding 0.5s ease;float: right;}
+.Ar .dropdown-menu > li > a:hover,
+.Ar .dropdown-menu > li > a:focus { color: #fff; padding-right: 30px;padding-left: 130px;} */
+.Ar .our-services h2{font-family: 'Almarai', sans-serif;font-size: 23px;}
+.Ar .our-services h4{font-family: 'Almarai', sans-serif!important;font-size: 22px!important;}
+.Ar .our-services ul{padding-right: 255px;}
+.Ar .our-services .btn-success{font-size: 15px;}
+.Ar .our-services .img1{width: 100%;margin-right: -106px;margin-top: 50px;}
+.Ar .our-services .img2{width: 125%;margin-right: -125px;}
+.Ar .our-services .img3{width: 100%;margin-top: 30px;margin-right: -160px;}
+.Ar .our-services .block{margin-right: 100px;}
+.Ar .our-services .order{margin-right: 250px;}
+.Ar .our-services .order .input-lg,.Ar .our-services .order .btn-danger{font-size: 15px;}
+/* ****************Start Join******************** */
+.Ar .join h1{margin-top: 50px;}
+.Ar .join button{font-family: 'Almarai', sans-serif;font-size: 14px;}
+
+
+/* ****************Start Media ******************** */
+@media (max-width: 992px){
+.Ar .carousel-caption {right: 0;}
+.Ar .carousel-caption h2{font-size: 22px!important;}
+.Ar .nav{padding-right: 0!important;}
+.Ar .lead{font-size: 15px;}
+.Ar .intro h2,.Ar .choose h1{font-size: 22px;}
+.Ar .stats{margin-right:0;}
+.Ar .join button{margin-right: 46px;}
+.Ar .our-services ul{margin-right: -20px;padding-right: 0;}
+.Ar .our-services .order{margin-right: 0;}
+.Ar .our-services .order h2{font-size: 22px!important;}
+.Ar .our-services .block {margin-right: 0;}
+}
+@media(width:768px){
+
+}
